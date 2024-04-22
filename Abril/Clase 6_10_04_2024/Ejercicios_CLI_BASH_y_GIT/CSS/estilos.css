@@ -1,0 +1,143 @@
+*{
+
+margin: 0px;
+padding: 0px;
+}
+
+html {
+
+	font-size: calc(1em + 1vw);
+}
+
+body {
+
+width: 100%;
+
+background-color: #000000;
+display: flex;
+flex-direction: column;
+
+}
+
+header {
+display: flex;
+heigth: auto;
+width: 95%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 5%;
+background-color: #FFFFFF;
+justify-content: center;
+
+
+}
+
+header > div {
+flex-grow: 1;
+max-width: 900px;
+margin: auto;
+text-align: center;
+
+}
+
+header h1 {
+	font-size: 1.5em;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+    
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	background-color: #FFFFFF;
+}
+
+main > div {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  max-width: 1000px;
+
+  justify-content: center;
+ 
+   
+
+}
+
+.secciones {
+  
+  
+  width: 45%;
+  border-color: 2px;
+  border-style: solid;
+  border-color: yellow;
+  box-sizing: border-box;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+
+
+
+.secciones article {
+
+text-align: center;
+border: 1px solid blue;
+padding: 1%;
+
+}
+
+.secciones h2 {
+
+	font-size: 0.8em;
+}
+
+.secciones figure {
+    background-color: green;
+	
+	border: 1px solid red;
+
+}
+
+.secciones img {
+
+	width: 100%;
+	margin: auto;
+   transition: all 0.2s ease-in-out 0.5s;
+}
+
+.secciones img:hover {
+	transform: scale(1.5);
+}
+
+footer {
+
+display: flex;
+heigth: auto;
+width: 95%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 5%;
+background-color: #FFFFFF;
+justify-content: center;
+margin-bottom: 5%;
+}
+
+footer > div {
+flex-grow: 1;
+max-width: 900px;
+margin: auto;
+text-align: center;
+
+}
+
+footer h2{
+
+font-size: 0.7em;
+
+}
+
